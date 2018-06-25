@@ -1,8 +1,9 @@
+import template from './post-list.template.html'
 var postList = {
   bindings: {
     posts: '<'
   },
-  templateUrl: 'app/post-list/post-list.template.html'
+  template
 }
 
 angular.module('app')

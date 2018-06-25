@@ -1,3 +1,5 @@
+import './books.service.js'
+
 angular.module('app')
   .controller('AppController', ['BooksService', AppController])
 

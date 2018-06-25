@@ -1,5 +1,6 @@
+import template from './footer.template.html'
 var footer = {
-  templateUrl: 'app/footer/footer.template.html'
+  template,
 }
 
 angular.module('app')

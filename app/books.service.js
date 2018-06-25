@@ -1,8 +1,8 @@
 BooksService.$inject = ['$http']
 
 function BooksService ($http) {
-  var vm = this
-  var server = 'https://jsonplaceholder.typicode.com'
+  const vm = this
+  const server = 'https://jsonplaceholder.typicode.com'
   vm.posts = []
 
   vm.getBooks = getBooks

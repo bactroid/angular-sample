@@ -1,0 +1,6 @@
+import angular from 'angular'
+import './app.module.js'
+import './app.controller.js'
+import './book-list/index.js'
+import './post-list/index.js'
+import './footer/index.js'

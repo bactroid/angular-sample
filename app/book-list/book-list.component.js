@@ -1,8 +1,9 @@
+import template from './book-list.template.html'
 var bookList = {
   bindings: {
     books: '<'
   },
-  templateUrl: 'app/book-list/book-list.template.html'
+  template
 }
 
 angular.module('app')

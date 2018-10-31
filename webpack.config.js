@@ -1,3 +1,4 @@
+const HtmlWebPackPlugin = require('html-webpack-plugin')
 const path = require('path')
 
 module.exports = {
@@ -7,6 +8,12 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js'
   },
+  plugins: [
+    new HtmlWebPackPlugin({
+      title: 'Sample Angular App',
+      template: 'index.html'
+    })
+  ],
   module: {
     rules: [
       {

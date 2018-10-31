@@ -20,6 +20,7 @@
     "angular-mocks": "^1.6.8",
     "babel-loader": "^7.1.4",
     "css-loader": "^0.28.11",
+    "express": "^4.16.4",
     "html-loader": "^0.5.5",
     "ng-cache-loader": "0.0.26",
     "path": "^0.12.7",

@@ -2,7 +2,7 @@
 /* global angular */
 require('../node_modules/angular/angular.min.js')
 require('../node_modules/angular-mocks/angular-mocks.js')
-require('../dist/bundle.min.js')
+require('../dist/bundle.js')
 
 describe('BooksService', () => {
   beforeEach(angular.mock.module('app'))
